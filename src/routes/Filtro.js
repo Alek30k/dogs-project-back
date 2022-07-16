@@ -1,6 +1,6 @@
 const router = require ("express").Router()
 
-const {getAllInfo} = require('../../Controllers/controllers.js');
+const {getAllInfo} = require('../Controllers/controllers.js');
 
 router.get("/", async (req ,res)=>{
     const allDogs = await getAllInfo()

@@ -1,5 +1,5 @@
 
-const {getAllInfo} = require ('../../Controllers/controllers')
+const {getAllInfo} = require ('../Controllers/controllers')
 const axios = require ('axios');
 const router = require ('express').Router();
 const {Temperament} = require ('../db')

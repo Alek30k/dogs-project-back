@@ -1,6 +1,6 @@
 const axios = require ('axios');
-const {Dog, Temperament} = require('../../api/src/db.js');
-const router = require('../src/routes/RouterDog.js');
+const {Dog, Temperament} = require('../db.js');
+const router = require('../routes/RouterDog.js');
 
 
 

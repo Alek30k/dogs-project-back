@@ -1,4 +1,4 @@
-const {getAllInfo} = require('../../Controllers/controllers.js');
+const {getAllInfo} = require('../Controllers/controllers.js');
 const {Router} = require('express');
 /* const Dog = require('../models/Dog.js');
 const Temperament = require('../models/Temperament.js'); */
